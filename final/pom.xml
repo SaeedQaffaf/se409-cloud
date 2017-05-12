@@ -78,7 +78,7 @@
             <plugin>
    <groupId>com.google.appengine</groupId>
    <artifactId>appengine-maven-plugin</artifactId>
-   <version>1.9.52</version>
+   <version>3.3.9</version>
 </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
