@@ -76,6 +76,11 @@
         <outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
         <plugins>
             <plugin>
+   <groupId>com.google.appengine</groupId>
+   <artifactId>appengine-maven-plugin</artifactId>
+   <version>1.9.52</version>
+</plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>2.1</version>
