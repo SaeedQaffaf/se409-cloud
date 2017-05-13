@@ -92,7 +92,7 @@
 
 <form action="/sign" method="post">
     <div><textarea name="content" rows="3" cols="60"></textarea></div>
-    <div><input type="submit" value="Post Greeting"/></div>
+    <div><input type="submit" value="Post Greeting" class = "btn"/></div>
     <input type="hidden" name="guestbookName" value="${fn:escapeXml(guestbookName)}"/>
 </form>
 <%-- //[END datastore]--%>
